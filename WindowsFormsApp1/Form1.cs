@@ -50,5 +50,33 @@ namespace WindowsFormsApp1
                 pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
             }
         }
+
+        private async void button5_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 10);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 10);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 10);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 10);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 10);
+            await Task.Delay(500);
+            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 10);
+            await Task.Delay(500);
+        }
     }
 }
