@@ -39,9 +39,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.spiderman;
-            this.pictureBox1.Location = new System.Drawing.Point(55, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(65, 49);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 221);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 145);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
